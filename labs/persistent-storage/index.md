@@ -151,6 +151,19 @@ In your browser go to the `EXTERNAL-IP`
 Run through the WordPress installation, providing the requested information and then login with the credentials you created previously. 
 
 
-## Confirm persistent disk is maintaining data. 
+## Confirm persistent disk is maintaining data.  
 
-Now delete the WordPress deployment, and then re-deploy it and confirm the PV has persisted. 
+Now delete the WordPress deployment, and then re-deploy it and confirm the PV has persisted.  
+
+## Clean-up    
+Delete the Wordpress deployment, Persistent Volume and Persistent Volume Claim   
+```
+kubectl delete -f manifests/wordpress_cloudsql.yaml
+kubectl delete -f manifests/wordpress-volumeclaim.yaml
+```
+
+Now delete the SQL instance    
+```
+gcloud sql instances delete mysql-wordpress-instance   
+```
+Type 'y' to confirm.   
