@@ -1,6 +1,6 @@
 # GCP Console
-## Log into Google Cloud Console
-1. In a browser open https://console.cloud.google.com   
+## Log into Google Cloud Portal
+1. In a browser open [GCP Portal](https://console.cloud.google.com)
 2. Log in using credentials provided in VM spreadsheet.   
 
 ## Spin up a Kubernetes cluster
