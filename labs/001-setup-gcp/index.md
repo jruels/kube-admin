@@ -1,4 +1,8 @@
 # GCP Console
+## Log into Google Cloud Console
+1. In a browser open https://console.cloud.google.com   
+2. Log in using credentials provided in VM spreadsheet.   
+
 ## Spin up a Kubernetes cluster
 In this section, you will be using Cloud Shell to create a Kubernetes cluster.
 1. Click the shell icon on the top right of the browser.
