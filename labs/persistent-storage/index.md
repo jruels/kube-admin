@@ -2,9 +2,9 @@
 
 This tutorial shows you how to set up a single-replica WordPress deployment on Google Kubernetes Engine (GKE) using a MySQL database. In this lab you will use Cloud SQL, which provides a managed version of MySQL. WordPress uses PersistentVolumes (PV) and PersistentVolumeClaims (PVC) to store data. WordPress uses Google Persistent Disk as storage to back the PVs.
 
-As we've discussed pods root filesystems are emepheral and are deleted when the pod is deleted or a node fails. 
+As we've discussed pod's root filesystems are ephemeral and are deleted when the pod is deleted or a node fails. 
 
-Using PVs backed by Persistent Disk let you store your WordPress platform data outside the pods. This way, even if they are deleted, the data is still available.
+Using PVs backed by Persistent Disk lets you store your WordPress platform data outside the pods. This way, even if they are deleted, the data is still available.
 
 WordPress requires a PV to store data. For this tutorial, you use the default storage class to dynamically create Google Persistent Disk and create a PVC for the deployment.
 
