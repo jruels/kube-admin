@@ -53,7 +53,7 @@ You have completed setting up the database for your new WordPress blog.
 ## Create MySQL service
 Create a service to expose MySQL internally for WordPress.   
 ```
-kubectl create -f mysql-service.yaml
+kubectl create -f manifests/mysql-service.yaml
 ```
 
 ## Deploy WordPress:   
