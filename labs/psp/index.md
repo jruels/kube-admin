@@ -15,7 +15,7 @@ GKE disables the legacy API in versions 1.12 and newer. To demonstrate how dange
 To enable it run the following in Cloud Shell: 
 
 ```console
-gcloud beta container clusters create deloitte-lab --zone=us-central1-f --metadata=disable-legacy-endpoints=false --num-nodes=1
+gcloud beta container clusters create deloitte-lab-meta --zone=us-central1-f --metadata=disable-legacy-endpoints=false --num-nodes=1
 ```
 
 
