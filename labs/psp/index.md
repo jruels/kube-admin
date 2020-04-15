@@ -213,7 +213,7 @@ Note: In GKE versions 1.12 and newer, the `--metadata=disable-legacy-endpoints=t
 Create the second node pool:
 
 ```console
-gcloud beta container node-pools create second-pool --cluster deloitte-lab --zone us-central1-f --num-nodes=1 --metadata=disable-legacy-endpoints=true --workload-metadata-from-node=SECURE
+gcloud beta container node-pools create second-pool --cluster deloitte-lab-meta --zone us-central1-f --num-nodes=1 --metadata=disable-legacy-endpoints=true --workload-metadata-from-node=SECURE
 
 NAME         MACHINE_TYPE   DISK_SIZE_GB  NODE_VERSION
 second-pool  n1-standard-1  100           1.14.10-gke.27
@@ -315,7 +315,7 @@ __Note:__ In a real environment, consider replacing the `system:authenticated` u
 Next, enable the PodSecurityPolicy Admission Controller:
 
 ```console
-gcloud beta container clusters update deloitte-lab --zone us-central1-f --enable-pod-security-policy
+gcloud beta container clusters update deloitte-lab-meta --zone us-central1-f --enable-pod-security-policy
 ```
 
 This will take a few minutes to complete.
@@ -325,7 +325,7 @@ This will take a few minutes to complete.
 Because the account used to deploy the GKE cluster was granted cluster-admin permissions in a previous step, it's necessary to create another separate "user" account to interact with the cluster and validate the PodSecurityPolicy enforcement.  To do this, run:
 
 ```console
-./create-demo-developer.sh -c deloitte-lab
+./create-demo-developer.sh -c deloitte-lab-meta
 
 Created service account [demo-developer].
 ...snip...
@@ -370,7 +370,7 @@ Congratulations! In this lab you configured a default Kubernetes cluster in Goog
 The following script will validate that the demo is deployed correctly:
 
 ```console
-./validate.sh -c deloitte-lab
+./validate.sh -c deloitte-lab-meta
 ```
 
 ## Tear Down
@@ -384,7 +384,7 @@ gcloud auth login
 The following script will destroy the Kubernetes Engine cluster.
 
 ```console
-./delete.sh -c deloitte-lab
+./delete.sh -c deloitte-lab-meta
 
 Fetching cluster endpoint and auth data.
 kubeconfig entry generated for default-cluster.
