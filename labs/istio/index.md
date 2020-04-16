@@ -1358,7 +1358,7 @@ spec:
   targets:
   - name: details
   peers:
-  - mtls:
+  - mtls: {}
   origins:
   - jwt:
       issuer: https://amer-demo13-test.apigee.net/istio-auth/token
