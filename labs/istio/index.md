@@ -94,6 +94,10 @@ In Istio 1.0+ the recommeded installation tool is Helm. The following steps walk
 
 ## Install Helm 
 
+If Helm is not already installed run the following, otherwise skip to 'Install Istio CRDs'
+
+
+
 ```
 wget https://raw.githubusercontent.com/helm/helm/master/scripts/get -O - | bash
 ```
