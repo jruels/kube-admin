@@ -7,6 +7,7 @@ This site includes the slides and labs for the Docker Kubernetes Administration 
 [Day 1](https://www.dropbox.com/s/hox7ndi7k8gznxj/Kube-Admin-day1.pdf?dl=0)   
 [Day 2](https://www.dropbox.com/s/tuib0lsem6m2yyk/Kube-Admin-day2.pdf?dl=0)   
 [Day 3](https://www.dropbox.com/s/91vcnw5jwno71db/Kube-Admin-day3.pdf?dl=0)   
+[Day 3](https://www.dropbox.com/s/9eupsx47bo9n0kr/Kube-Admin-day4.pdf?dl=0)   
 
 ## Labs
 [Lab VMs](https://docs.google.com/spreadsheets/d/1kW1rNQMZVdoYa2IDLZa66rLv122LM_mIfkbjxhEmVsQ/edit?usp=sharing)  
@@ -31,3 +32,16 @@ Lab 11: [Helm](labs/helm/)
 Lab 12: [Health Checks](labs/health-checks/)   
 Lab 13: [RBAC](labs/rbac/)   
 Lab 14: [Pod Security](labs/psp/)   
+
+
+### Day 4
+Lab 15: [Install Istio/Deploy Bookinfo app](labs/istio)    
+Lab 16: [Istio traffic management](https://jruels.github.io/fun-istio/labs/istio/#dynamically-change-request-routing)   
+Lab 17: [Istio Handling failures](https://jruels.github.io/fun-istio/labs/istio/#fault-injection)   
+Lab 18: [Istio Security](https://jruels.github.io/fun-istio/labs/istio/#security)   
+Lab 19: [Istio Monitoring & Tracing](https://jruels.github.io/fun-istio/labs/istio/#monitoring)   
+Lab 20: [StatefulSets](labs/stateful/)   
+Lab 21: [init containers](labs/init-containers/)   
+
+
+
