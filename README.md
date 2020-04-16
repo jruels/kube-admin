@@ -7,7 +7,7 @@ This site includes the slides and labs for the Docker Kubernetes Administration 
 [Day 1](https://www.dropbox.com/s/hox7ndi7k8gznxj/Kube-Admin-day1.pdf?dl=0)   
 [Day 2](https://www.dropbox.com/s/tuib0lsem6m2yyk/Kube-Admin-day2.pdf?dl=0)   
 [Day 3](https://www.dropbox.com/s/91vcnw5jwno71db/Kube-Admin-day3.pdf?dl=0)   
-[Day 3](https://www.dropbox.com/s/9eupsx47bo9n0kr/Kube-Admin-day4.pdf?dl=0)   
+[Day 4](https://www.dropbox.com/s/9eupsx47bo9n0kr/Kube-Admin-day4.pdf?dl=0)   
 
 ## Labs
 [Lab VMs](https://docs.google.com/spreadsheets/d/1kW1rNQMZVdoYa2IDLZa66rLv122LM_mIfkbjxhEmVsQ/edit?usp=sharing)  
