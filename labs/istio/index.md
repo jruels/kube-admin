@@ -1209,15 +1209,14 @@ The policy does the following:
 
 * Creates a ServiceRoleBinding that assign the service-viewer role to all services in the istio-system and default namespaces.
 
-In the Cloud Shell clone the lab repo. 
+In the Cloud Shell enter the kube-admin directory   
 ```
-cd ~
-git clone https://github.com/jruels/fun-istio.git
+cd ~/deloitte/kube-admin/labs
 ```
 
 Deploy test mtlstest Pod 
 ```
-cd ~/fun-istio/labs/07-istio1/mtlstest
+cd mtlstest
 kubectl create -f <(istioctl kube-inject -f mtlstest.yaml) --validate=true --dry-run=false
 ```
 
@@ -1372,7 +1371,7 @@ There are two critical pieces here:
 
 Change to the class page lab directory
 ```
-cd ~/fun-istio/labs/07-istio1/
+cd istio/
 ```
 
 Now, apply the policy
